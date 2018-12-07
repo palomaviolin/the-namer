@@ -7,7 +7,9 @@ function handledSearchUser() {
     const username = nameUserInput.value;
     fetch(`https://api.github.com/users/${username}`)
         .then(response => response.json())
-        .then(data => {
+        .then(data => { 
+            if (data.name) { 
+            console.log(data);
             const name = document.querySelector('.user_name');
             name.innerHTML = data.name;
 
@@ -18,10 +20,17 @@ function handledSearchUser() {
             let listItems = '';
             for (let letter of splittedName) {
                 listItems += `<li class="li">${letter}</li>`;
-            }
+            } 
             letterList.innerHTML = listItems;
 
             console.log(formattedName)
+
+            } else {
+                function noValidName() {
+                    alert("Ese nick de usuario no existe. Comprueba que lo hayas escrito correctamente.");
+                }
+                noValidName();
+        }
         });
 
 }
