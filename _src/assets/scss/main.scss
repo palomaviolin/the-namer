@@ -1,0 +1,38 @@
+@import 'core/settings';
+
+.body {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 45px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.label-title {
+    color: green;
+    font-size: 20px;
+}
+
+.input-styles {
+    border: 1px solid gray;
+    width: 380px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button { 
+    border: 1px solid gray;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+    width: 110px;
+}
