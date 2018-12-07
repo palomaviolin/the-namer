@@ -2,7 +2,7 @@
 
 # El Nombrador de GitHub
 
-Aquí puedes adentrarte en una sencilla web donde poder conocer el nombre de un usuario de GitHub. Introduce su nombre, dale al botón _Buscar_ y... ¡listo! Obtendrás el nombre que deseas saber. [ENTRA EN LA WEB]().
+Aquí puedes adentrarte en una sencilla web donde poder conocer el nombre de un usuario de GitHub. Introduce su nombre, dale al botón _Buscar_ y... ¡listo! Obtendrás el nombre que deseas saber. [ENTRA EN LA WEB](https://palomaviolin.github.io/the-namer/).
 
 
 # Guía para usar este repositorio
